@@ -1,0 +1,11 @@
+[Header]
+FileFormatVersion,2
+
+[BCLConvert_Settings]
+SoftwareVersion,4.0
+OverrideCycles,Y145;I10;I10U10;Y145
+
+[BCLConvert_Data]
+Sample_ID,Index,Index2,Sample_Project
+A01,ATTGGTCAGA,TGGAGCGATG,example_FASTQ
+A02,ATGTTGCGGA,TCATACGTTC,example_FASTQ

@@ -1,0 +1,22 @@
+[Header]
+Local Run Manager Analysis Id,276277
+Experiment Name,20250909_MiSeq-Yoda_2912
+Date,9/9/25
+Module,GenerateFASTQ - 3.0.1
+Workflow,GenerateFASTQ
+Library Prep Kit,Custom
+Index Kit,Custom
+Chemistry,Amplicon
+iemfileversion,4
+investigator name,Danny Yun
+application,FASTQ Only
+
+[Reads]
+145
+145
+
+[Settings]
+
+[Data]
+Sample_ID,Sample_Name,Description,I7_Index_ID,index,I5_Index_ID,index2,Sample_Project
+s100,UMI96_ppHCs1,,AAAAAAAAAA,AAAAAAAAAA,AAAAAAAAAAAAAAAAAAAA,AAAAAAAAAAAAAAAAAAAA,

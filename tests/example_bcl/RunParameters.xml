@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<RunParameters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" LineWashRequired="false" UseModuleRecipe="false">
+  <RunParametersVersion>MiSeq_1_3</RunParametersVersion>
+  <FlowcellRFIDTag>
+    <SerialNumber>000000000-GT38G</SerialNumber>
+    <PartNumber>15035218</PartNumber>
+    <ExpirationDate>2026-05-30T00:00:00</ExpirationDate>
+    <LotNumber>20960773</LotNumber>
+  </FlowcellRFIDTag>
+  <PR2BottleRFIDTag>
+    <SerialNumber>MS1505190-00PR2</SerialNumber>
+    <PartNumber>15041807</PartNumber>
+    <ExpirationDate>2026-05-30T00:00:00</ExpirationDate>
+    <LotNumber>20960307</LotNumber>
+  </PR2BottleRFIDTag>
+  <ReagentKitRFIDTag>
+    <SerialNumber>MS1021997-300V2</SerialNumber>
+    <PartNumber>15033572</PartNumber>
+    <ExpirationDate>2026-04-14T00:00:00</ExpirationDate>
+    <LotNumber>20962627</LotNumber>
+  </ReagentKitRFIDTag>
+  <Resumable>true</Resumable>
+  <PercentTilesToScan>0</PercentTilesToScan>
+  <ManifestFiles />
+  <AfterRunWashMethod>Post-Run Wash</AfterRunWashMethod>
+  <Setup>
+    <SupportMultipleSurfacesInUI>true</SupportMultipleSurfacesInUI>
+    <ApplicationVersion>4.1.0.656</ApplicationVersion>
+    <NumTilesPerSwath>4</NumTilesPerSwath>
+    <NumSwaths>1</NumSwaths>
+    <NumLanes>1</NumLanes>
+    <ApplicationName>MiSeq Control Software</ApplicationName>
+  </Setup>
+  <RunID>250909_M08077_0541_000000000-GT38G</RunID>
+  <ScannerID>M08077</ScannerID>
+  <RunNumber>541</RunNumber>
+  <FPGAVersion>9.5.12</FPGAVersion>
+  <MCSVersion>4.1.0.656</MCSVersion>
+  <RTAVersion>1.18.54</RTAVersion>
+  <Barcode>000000000-GT38G</Barcode>
+  <PR2BottleBarcode>MS1505190-00PR2</PR2BottleBarcode>
+  <ReagentKitPartNumberEntered>15033572</ReagentKitPartNumberEntered>
+  <ReagentKitVersion>Version2</ReagentKitVersion>
+  <ReagentKitBarcode>MS1021997-300V2</ReagentKitBarcode>
+  <PreviousPR2BottleBarcode />
+  <PreviousReagentKitBarcode />
+  <ExperimentName>20250909_MiSeq-Yoda_2912</ExperimentName>
+  <RunDescription />
+  <LibraryPrepKit>Custom</LibraryPrepKit>
+  <IndexKit>Custom</IndexKit>
+  <Chemistry>Amplicon</Chemistry>
+  <Username>sequencing@seqwell.com</Username>
+  <EnableAnalysis>false</EnableAnalysis>
+  <Reads>
+    <RunInfoRead Number="1" NumCycles="145" IsIndexedRead="N" />
+    <RunInfoRead Number="2" NumCycles="10" IsIndexedRead="Y" />
+    <RunInfoRead Number="3" NumCycles="20" IsIndexedRead="Y" />
+    <RunInfoRead Number="4" NumCycles="145" IsIndexedRead="N" />
+  </Reads>
+  <TempFolder>D:\Illumina\MiSeqTemp\250909_M08077_0541_000000000-GT38G</TempFolder>
+  <RTATempFolder>D:\Illumina\RTATemp\250909_M08077_0541_000000000-GT38G</RTATempFolder>
+  <AnalysisFolder>D:\Illumina\MiSeqAnalysis\250909_M08077_0541_000000000-GT38G</AnalysisFolder>
+  <RunStartDate>250909</RunStartDate>
+  <MostRecentWashType>MissedPostRunWash</MostRecentWashType>
+  <RecipeFolder>C:\ProgramData\Illumina\MiSeq Control Software\Recipe</RecipeFolder>
+  <ILMNOnlyRecipeFolder>C:\Program Files\Illumina\MiSeq Control Software\Recipe</ILMNOnlyRecipeFolder>
+  <SampleSheetName>MS1021997-300V2</SampleSheetName>
+  <SampleSheetFolder>D:\Illumina\MiSeq Control Software\SampleSheets</SampleSheetFolder>
+  <SampleSheetFilePath>C:\Users\sbsUser\Desktop\sample sheet\DY\20250909_MiSeq-Yoda_2912.csv</SampleSheetFilePath>
+  <ManifestFolder>D:\Illumina\MiSeq Control Software\Manifests</ManifestFolder>
+  <OutputFolder>D:\Illumina\MiSeqOutput\250909_M08077_0541_000000000-GT38G</OutputFolder>
+  <FocusMethod>AutoFocus</FocusMethod>
+  <SurfaceToScan>Both</SurfaceToScan>
+  <SaveFocusImages>false</SaveFocusImages>
+  <SaveScanImages>true</SaveScanImages>
+  <RunManagementType>SampleSheet</RunManagementType>
+  <BaseSpaceRunId>304122823</BaseSpaceRunId>
+  <CloudRunId>304122823</CloudRunId>
+  <DxRuoRunType>Ruo</DxRuoRunType>
+  <SelectedRun>20250909_MiSeq-Yoda_2912</SelectedRun>
+  <ModuleName>GenerateFastQWorkflow</ModuleName>
+  <ModuleVersion>3.0.1.49</ModuleVersion>
+  <DxUserName />
+  <DxUserLevel />
+  <BaseSpaceMode>IpdRequested RunMonitoringRequested RunStorageRequested</BaseSpaceMode>
+  <BaseSpaceUserName>sequencing@seqwell.com</BaseSpaceUserName>
+  <ManualFlowcellEntry>false</ManualFlowcellEntry>
+  <ManualReagentEntry>false</ManualReagentEntry>
+  <ManualPR2Entry>false</ManualPR2Entry>
+  <CopyServiceRunId>1CCDA5FDC5683B0F</CopyServiceRunId>
+  <LocalRunManagerRunId>275276</LocalRunManagerRunId>
+</RunParameters>
