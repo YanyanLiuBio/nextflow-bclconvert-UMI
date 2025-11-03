@@ -9,6 +9,7 @@ process SUMMARIZE_DEMUX {
    path("*.xlsx")
 
   """
-  demux_bclconvert_report.py ${params.plates.replace('.csv', '')}
+  sample=\$(basename ${params.samplesheet} .csv)
+  demux_bclconvert_report.py \$sample
   """
 }
