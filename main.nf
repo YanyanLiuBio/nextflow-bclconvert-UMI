@@ -9,11 +9,11 @@ workflow {
 
 
     Channel
-        .of(params.bcl_dir)
+        .fromPath(params.bcl_dir)
         .set { bcl_ch }
 
     Channel
-        .of(params.samplesheet)
+        .fromPath(params.samplesheet)
         .set { samplesheet_ch }
 
     BCLCONVERT(
